@@ -52,6 +52,14 @@ console.log(dart)
 // Yell at the Ninja Turtles
 ////////////////////////////////
 
+const turtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+
+let upperTurtles = "";
+for (let x of turtles) {
+    upperTurtles += x.toUpperCase() + "\n";
+}
+console.log(upperTurtles)
+
 ////////////////////////////////
 // Methods, Revisited
 ////////////////////////////////
