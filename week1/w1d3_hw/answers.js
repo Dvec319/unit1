@@ -19,11 +19,11 @@ for (let i = 0; i <= 200; i += 2) {
 ////////////////////////////////
 
 for (let i = 1; i <= 100; i++) {
-    if (i%3 == 0 && i%5 == 0) {
+    if (i%3 === 0 && i%5 === 0) {
         console.log("FizzBuzz");
-    } else if (i%5 == 0) {
+    } else if (i%5 === 0) {
         console.log("Buzz");
-    } else if (i%3 == 0) {
+    } else if (i%3 === 0) {
         console.log("Fizz");
     } else {
         console.log(i);
@@ -64,6 +64,50 @@ console.log(upperTurtles)
 // Methods, Revisited
 ////////////////////////////////
 
+const favMovies = [
+	'Jaws',
+	'The Fellowship of the Ring',
+	"Howl's Moving Castle",
+	'Django Unchained',
+	'Cloud Atlas',
+	'The Usual Suspects',
+	'Toy Story',
+	'Conan the Barbarian',
+	'Titanic',
+	'Harry Potter',
+	'Fried Green Tomatoes',
+	'Volver',
+	'Oculus',
+	'Seven',
+	'Black Panther',
+	'Harry Potter',
+	'Imitation of Life',
+	'Snatch',
+	'Fast and Furious',
+];
+
+titanicIndex = favMovies.indexOf('Titanic');
+console.log(titanicIndex)
+favMovies.sort()
+console.log(favMovies)
+favMovies.pop()
+console.log(favMovies)
+favMovies.push("Guardians of the Galaxy")
+console.log(favMovies)
+favMovies.reverse()
+console.log(favMovies)
+favMovies.shift()
+console.log(favMovies)
+favMovies.unshift()
+// The unshift method won't return anything to the array unless actually given an input.
+console.log(favMovies)
+djangoIndex = favMovies.indexOf('Django Unchained')
+favMovies.splice(djangoIndex, 1, "Avatar")
+console.log(favMovies)
+const halfMovies = favMovies.length / 2;
+const lastHalf = favMovies.slice(halfMovies)
+console.log(lastHalf)
+console.log(favMovies.indexOf('Django Unchained')) // This logs out as a -1 because we removed it from the array.
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////
