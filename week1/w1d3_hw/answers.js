@@ -112,6 +112,21 @@ console.log(favMovies.indexOf('Django Unchained')) // This logs out as a -1 beca
 // Where is Waldo
 ////////////////////////////////
 
+const whereIsWaldo = [
+	['Timmy', 'Frank'],
+	'Eggbert',
+	['Lucinda', 'Jacc', 'Neff', 'Snoop'],
+	['Petunia', ['Baked Goods', 'Waldo']],
+];
+
+const eggbertIndex = whereIsWaldo.indexOf('Eggbert');
+whereIsWaldo.splice(eggbertIndex, 1);
+console.log(whereIsWaldo);
+
+whereIsWaldo[1][2] = 'No One'
+console.log(whereIsWaldo)
+console.log(whereIsWaldo[2][1][1])
+
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////
