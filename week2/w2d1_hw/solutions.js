@@ -11,3 +11,17 @@ const checkPalindrome = (str) => {
 
 console.log(checkPalindrome("Radar"));
 console.log(checkPalindrome("Borscht"));
+
+// Sum Array
+
+const numArray = [1, 4, 7, 10, 15, 20];
+
+const sumArray = (arr) => {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i]
+    }
+    return sum;
+}
+
+console.log(sumArray(numArray));
