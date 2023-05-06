@@ -45,3 +45,31 @@ console.log(setAlarm(true, false)) // => returns true
 
     console.log(trollsBeGone('This website is for losers LOL'));
 }
+
+{
+    const bankInfo = {
+        savings: 1000,
+        checking: 1500,
+        moneyMarket: 400,
+        creditCard: -1000
+    };
+
+    const bankAccountSummary = () => {
+        let sum = 0;
+        for (let key in bankInfo) {
+            sum += bankInfo[key]
+        } return sum
+    }
+
+    console.log(bankAccountSummary(bankInfo))
+
+    const bankTotal = bankAccountSummary(bankInfo);
+    console.log(bankTotal)
+
+    const inTheRed = (num) => {
+        if (num < 0) {
+            return true
+        } else return false
+    }
+    console.log(inTheRed(bankTotal))
+}
