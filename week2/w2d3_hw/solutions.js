@@ -1,3 +1,5 @@
+// Set Alarm
+
 const setAlarm = (employed, vacationing) => {
     if (employed && vacationing) {
         return false;
@@ -14,6 +16,7 @@ console.log(setAlarm(false, false)) // => returns false
 console.log(setAlarm(false, true)) // => returns false
 console.log(setAlarm(true, false)) // => returns true
 
+// Odd Number Count
 
 {
     const oddNumberCount = (num) => {
@@ -30,4 +33,15 @@ console.log(setAlarm(true, false)) // => returns true
     oddNumberCount(7)
     oddNumberCount(16)
 
+}
+
+// Disemvoweling Trolls
+
+{
+    const trollsBeGone = (str) => {
+        let newString  = str.replace(/[aeiou]/ig, "");
+        return newString
+    }
+
+    console.log(trollsBeGone('This website is for losers LOL'));
 }
