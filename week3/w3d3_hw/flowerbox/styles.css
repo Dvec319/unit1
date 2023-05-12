@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Open+Sans&display=swap');
+
+* {
+    /* outline: solid gold; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+/* Nav Bar */
+
+header {
+    color: whitesmoke;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: #92b2ba;
+    margin: 30px auto;
+    width: 80%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/* Banner */
+
+#banner {
+    height: 800px;
+    background-image: url("https://raw.git.generalassemb.ly/AlexMerced/unit_1_html_css_js/main/day_08/homework/flowerbox/imgs/banner.png?token=AAALQ7GSIFHDBA2K4JMZVYTEM6Y6E");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#banner #one {
+    position: relative;
+    color: #92b2ba;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100px;
+    text-align: right;
+    width: 25%;
+    top: 300px;
+    left: 1500px;
+}
+
+#banner #two {
+    position: relative;
+    background-color: whitesmoke;
+    color: #f0a8bb;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    width: 20%;
+    text-align: center;
+    top: 320px;
+    left: 1590px;
+}
+
+/* Cards */
+
+#cards {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 10px auto;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30%;
+    height: 800px;
+    background-color: white;
+    margin: 30px 0px;
+}
+
+.card-img {
+    width: 100%    
+}
+
+nav.descriptors {
+    display: flex;
+    font-size: 20px;
+    padding: 40px 0px 0px 15px;
+}
+
+.card li {
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eeeeee;
+    padding: 5px 10px 5px 10px;
+    margin: 10px 20px 0px 0px;
+    color: #777777;
+}
+
+span {
+    padding: 5px;
+    background-color: #f0a8bb;
+    color: white;
+}
+
+h4 {
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+    padding: 15px 15px 15px 15px;
+    font-family: 'DM Sans', sans-serif;
+    color: #92b2ba
+}
+
+footer {
+    display: flex;
+    margin-left: 200px;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.logo {
+    width: 10%;
+}
+
+.logo-img {
+    width: 70%;
+
+}
+
+p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 900;
+    color: #f0a8bb;
+}
+
+ion-icon {
+    color: #92b2ba;
+    margin: 5px;
+}
+
+.customer-service li, .flowerbox li {
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px 10px 5px 10px;
+    margin: 10px 20px 0px 0px;
+    color: #777777;
+}
