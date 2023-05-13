@@ -129,3 +129,11 @@ $(".secret").hide("slow").delay(2000).show("slow");
 $li5.addClass("cabbage");
 
 $li5.removeClass("cabbage");
+
+// Year 7
+
+$h5.text("Fall 2018");
+
+$('<li>').text('Butter beer').prependTo($ul);
+
+$ul.attr("storage", "chest")
