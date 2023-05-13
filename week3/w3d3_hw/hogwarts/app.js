@@ -121,3 +121,11 @@ $wand.insertAfter($pet).text("Hornbeam Wand with Dragon Heartstring Core").css("
 $pet.remove().insertAfter($h1);
 
 $pet.remove().insertAfter($house);
+
+// Year 6
+
+$(".secret").hide("slow").delay(2000).show("slow");
+
+$li5.addClass("cabbage");
+
+$li5.removeClass("cabbage");
