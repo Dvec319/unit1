@@ -28,3 +28,22 @@ const $pet = $("<h4>").addClass("owl").text("Chimble");
 const $wand = $("<h4>").text("Holly Wand with Unicorn Hair Core")
 
 $container.append($name, $house, $pet, $wand)
+
+// Year 3
+
+const $ul = $("<ul>").attr("storage", "trunk")
+
+const $li1 = $('<li>').text('butter beer');
+
+const $li2 = $('<li>').text('invisibility cloak').addClass('secret');
+
+const $li3 = $('<li>').text('magic map').addClass('secret');
+
+const $li4 = $('<li>').text('time turner').addClass('secret');
+
+const $li5 = $('<li>').text('leash').addClass('owl');
+
+const $li6 = $('<li>').text("Bertie Bott's Every Flavor [Jelly] Beans");
+
+$ul.append($li1, $li2, $li3, $li4, $li5, $li6);
+$container.append($ul);
