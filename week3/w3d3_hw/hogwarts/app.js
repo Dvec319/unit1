@@ -109,3 +109,15 @@ $tr6.append($friday, $fridayClasses);
 $table.append($tr1, $tr2, $tr3, $tr4, $tr5, $tr6);
 
 $container.append($table);
+
+// Year 5
+
+$wand.remove();
+
+$li1.remove();
+
+$wand.insertAfter($pet).text("Hornbeam Wand with Dragon Heartstring Core").css("color", "indigo");
+
+$pet.remove().insertAfter($h1);
+
+$pet.remove().insertAfter($house);
