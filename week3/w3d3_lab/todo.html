@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script 
+    src="https://code.jquery.com/jquery-3.7.0.js" 
+    integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous">
+    </script>
+    <script src="todo.js" defer></script>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <h1>Our Todos & Reminders</h1>
+    <div id="top">
+        <div id="todos">
+            <h3>Todos</h3>
+            <ul>
+
+            </ul>
+
+        </div>
+        <div id="notes">
+            <h3> Notes</h3>
+            <ul>
+
+            </ul>
+
+        </div>
+
+    </div>
+    <div id="form">
+        <h3>Create an Item</h3>
+        <form>
+            <input type="text" name="item" placeholder="text of new item"/>
+            <select name="list">
+                <option>todo</option>
+                <option>note</option>
+            </select>
+            <input type="submit" value="create item"/>
+        </form>
+
+    </div>
+    
+</body>
+</html>

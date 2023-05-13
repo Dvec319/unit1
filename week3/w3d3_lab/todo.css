@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+#top {
+    min-height: 300px;
+    background-color: brown;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+#todos, #notes {
+    background-color: beige;
+    min-height: 200px;;
+    width: 40%;
+}
+
+#form {
+    min-height: 200px;
+    border: 2px solid red;
+    width: 90%;
+    margin: 10px auto;
+}
+
+h1, #todos, #notes, #form {
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: 2px solid brown;
+    margin: 10px auto;
+    width: 95;
+}
