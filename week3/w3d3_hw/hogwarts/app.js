@@ -47,3 +47,65 @@ const $li6 = $('<li>').text("Bertie Bott's Every Flavor [Jelly] Beans");
 
 $ul.append($li1, $li2, $li3, $li4, $li5, $li6);
 $container.append($ul);
+
+// Year 4
+
+const $table = $("<table>");
+
+const $h5 = $("<h5>").text("Spring 2017");
+
+$container.append($h5);
+
+const $thead = $("<thead>");
+
+const $day = $("<th>").text("Day");
+
+const $classes = $("<th>").text("Classes");
+
+const $tr1 = $("<tr>");
+
+const $tr2 = $("<tr>");
+
+const $tr3 = $("<tr>");
+
+const $tr4 = $("<tr>");
+
+const $tr5 = $("<tr>");
+
+const $tr6 = $('<tr>');
+
+const $monday = $('<td>').text('Monday');
+
+const $mondayClasses = $('<td>').text('Herbology, History of Magic');
+
+const $tuesday = $('<td>').text('Tuesday');
+
+const $tuesdayClasses = $('<td>').text('Divination, Defense Against the Dark Arts');
+
+const $wednesday = $('<td>').text('Wednesday');
+
+const $wednesdayClasses = $('<td>').text('Charms, Potions');
+
+const $thursday = $('<td>').text('Thursday');
+
+const $thursdayClasses = $('<td>').text('Transfiguration, History of Magic');
+
+const $friday = $('<td>').text('Friday');
+
+const $fridayClasses = $('<td>').text('Quidditch Practice, Defense Against the Dark Arts');
+
+$tr1.append($day, $classes);
+
+$tr2.append($monday, $mondayClasses);
+
+$tr3.append($tuesday, $tuesdayClasses);
+
+$tr4.append($wednesday, $wednesdayClasses);
+
+$tr5.append($thursday, $thursdayClasses);
+
+$tr6.append($friday, $fridayClasses);
+
+$table.append($tr1, $tr2, $tr3, $tr4, $tr5, $tr6);
+
+$container.append($table);
