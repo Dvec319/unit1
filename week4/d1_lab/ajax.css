@@ -1,0 +1,21 @@
+#mario {
+    display: flex;
+}
+
+#mario img {
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+}
+
+#pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+#pokemon div {
+    height: 200px;
+    width: 200px;
+}
